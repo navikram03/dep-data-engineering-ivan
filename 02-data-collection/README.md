@@ -1,65 +1,40 @@
 # Phase 2 — Data Collection
 
-**Weeks 5–8 &nbsp;|&nbsp; Milestones: M1, M2**
+**Weeks 5–6 &nbsp;|&nbsp; Milestone: M2 — Data Ingestion Script**
 
-> You have a question. Now you need data. Phase 2 is about finding, accessing, and saving real data from the real world.
+> You have a question and a source. Now build the pipeline that pulls it. Phase 2 is about getting real data into your repo reliably.
 
 ---
 
 ## Phase Goal
 
-By the end of Week 8, you will have:
+By the end of Week 6, you will have:
 
-- A chosen dataset that directly supports your problem statement
-- A working ingestion script (`scripts/01_ingest.py`) that fetches and saves data locally
-- Raw data saved in `data/raw/`
-- Completed Milestone 1 and Milestone 2 submissions
+- A working ingestion script (`scripts/ingest.py`) that fetches and saves data locally
+- Raw data saved in `/data/raw/` with timestamped filenames
+- A documented ingestion method (API, scraping, or manual download)
+- Completed Milestone 2 submission
 
 ---
 
 ## Weekly Breakdown
 
-| Week | Focus | Task |
-|------|-------|------|
-| [Week 5](week-05/) | Dataset Selection | Choose and validate your data source. Submit M1. |
-| [Week 6](week-06/) | APIs Deep Dive | Pagination, auth, rate limits. Pull your actual dataset. |
-| [Week 7](week-07/) | Web Scraping (Optional) | Use `requests` + `BeautifulSoup` if no API is available. |
-| [Week 8](week-08/) | Ingestion Script | Write `01_ingest.py`. Save to `data/raw/`. Submit M2. |
-
----
-
-## Milestone 1 — Data Source Identified
-
-**Due:** End of Week 5
-
-**Pass criteria:**
-- [ ] Dataset is chosen and accessible
-- [ ] Data source documented in README (name, URL, format)
-- [ ] You have explored the first few rows and understand the structure
-- [ ] `data/raw/` folder exists in the repo
-
-**Submission:** [Insert form link here]
+| Week | Focus | Deliverable |
+|------|-------|-------------|
+| [Week 5](week-05/) | API fundamentals & request handling | Robust API ingestion script + sample raw pulls |
+| [Week 6](week-06/) | Alternate ingestion paths (⚡ 3-path branching) | Working ingestion via API, scraping, or manual download |
 
 ---
 
 ## Milestone 2 — Data Ingestion Script
 
-**Due:** End of Week 8
+**Due:** By Week 6
 
 **Pass criteria:**
-- [ ] `scripts/01_ingest.py` runs without errors
-- [ ] Script fetches or loads data from the actual source
-- [ ] Raw output is saved to `data/raw/`
+
+- [ ] Raw data landed successfully via API, scraping, or manual timestamped save
+- [ ] Ingestion method documented in README
+- [ ] Raw file saved in `/data/raw/` with source URL and date recorded
+- [ ] All 3 ingestion paths (API / scraping / manual) are valid — deliverable format is the same
 
 **Submission:** [Insert form link here]
-
----
-
-## Resources
-
-> Curriculum leads: add your curated links below per week.
-
-- Week 5: [Add resources here]
-- Week 6: [Add resources here]
-- Week 7: [Add resources here]
-- Week 8: [Add resources here]

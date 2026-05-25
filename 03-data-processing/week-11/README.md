@@ -1,19 +1,40 @@
-# Week 11
+# Week 11 — Data Quality, Validation & Reproducibility
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 3 — Data Processing &nbsp;|&nbsp; Milestone 3**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Make your cleaning pipeline reliable — the same input should always produce the same output.
+
+**Topics:**
+
+- What counts as a data quality issue
+- Nulls, duplicates, invalid categories, impossible values
+- Range checks and uniqueness checks
+- Lightweight validation rules in code
+- Logging assumptions and cleaning decisions
+- Re-runability: transform script produces same output every time
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [DE Design Patterns](https://dedp.online)
+
+**Optional:** [Modern Data Engineering Playbook](https://thoughtworks.com/insights/blog/data-engineering/data-engineering-playbook)
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Add validation checks to the transformation flow and document every major cleaning decision in the README or notebook markdown.
 
-## Notes
+---
 
-[Add any setup instructions or tips here]
+## Deliverable
+
+Validation notes + cleaner, reproducible transform flow.
+
+**Estimated time:** 4–5 hours

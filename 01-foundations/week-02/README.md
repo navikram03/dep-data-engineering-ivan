@@ -1,19 +1,45 @@
-# Week 2
+# Week 2 — Data Source Discovery & Feasibility Check
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 1 — Foundations &nbsp;|&nbsp; Milestone 1 prep**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Find a real data source that can answer your problem statement. Evaluate it before committing.
+
+**Topics:**
+
+- File formats: CSV, JSON, Excel, HTML tables
+- API vs downloadable files vs scraping
+- Granularity, coverage, update frequency, missing values
+- Basic data dictionary thinking
+- Choose one primary source and one backup
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [Data Engineering Zoomcamp](https://dezoomcamp.streamlit.app) — source/data ingestion overview
+
+**Optional:** [Database Technology Overview](https://halvorsen.blog/documents/database/database.php)
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Find one primary dataset and one fallback. For each, document:
 
-## Notes
+- File format and coverage
+- How it answers your problem statement
+- Known gaps or limitations
 
-[Add any setup instructions or tips here]
+---
+
+## Deliverable
+
+README section: data source(s) + source notes.
+
+> ⚡ **Gate:** This deliverable must be reviewed and marked complete before Week 3 begins. Vague sources fail. Moderator must confirm the source is specific and usable.
+
+**Estimated time:** 4–5 hours

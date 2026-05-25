@@ -1,53 +1,53 @@
-# Phase 5 — Project Packaging
+# Phase 5 — Predictive Layer / Alt Track (Conditional)
 
 **Weeks 17–20 &nbsp;|&nbsp; Milestone: M5**
 
-> The work doesn't speak for itself unless it's presented well. Phase 5 is about turning your working project into something you'd be proud to show a hiring manager.
+> ⚡ This phase is conditional. Choose the path that fits your project — both are equally valid.
 
 ---
 
-## Phase Goal
+## Choose Your Path
 
-By the end of Week 20, you will have:
+| | Path A — Predictive | Path B — Non-Predictive |
+|-|---------------------|-------------------------|
+| **Who it's for** | Projects with a numeric or binary outcome worth predicting | Projects focused on description, segmentation, or policy |
+| **Weeks 17–20** | Regression → Classification → Feature engineering → Pipeline integration | Segmentation → KPI framework → Stakeholder narrative → Repo polish |
+| **Milestone 5** | Predictive Component | Public Repository |
 
-- A clean, professional README that tells the story of your project
-- A tidy repo with no junk files, no broken links, no "asdfgh" commit messages
-- An updated `requirements.txt`
-- Completed Milestone 5 submission
-
----
-
-## Weekly Breakdown
-
-| Week | Focus | Task |
-|------|-------|------|
-| [Week 17](week-17/) | README Rewrite | Write a README that a stranger can follow. Problem, data, findings. |
-| [Week 18](week-18/) | Repo Cleanup | Remove junk files. Clean up commit history. Fix `.gitignore`. |
-| [Week 19](week-19/) | Documentation | Add comments to scripts. Update `requirements.txt`. |
-| [Week 20](week-20/) | Final Polish | Peer review. Fix feedback. Submit M5. |
+If your project question does not naturally call for a model, take **Path B**. Do not force a predictive model where it doesn't belong.
 
 ---
 
-## Milestone 5 — Public Repo
+## Path A — Predictive Track
 
-**Due:** End of Week 20
+| Week | Focus | Deliverable |
+|------|-------|-------------|
+| [Week 17](week-17/) | Regression modeling | Baseline regression notebook + evaluation metrics |
+| [Week 18](week-18/) | Classification modeling | Classification baseline + metric interpretation |
+| [Week 19](week-19/) | Feature engineering & model improvement | Improved model section with what changed and why |
+| [Week 20](week-20/) | Integrating analytics/ML into the pipeline | Connected analytics pipeline with reusable outputs |
 
-**Pass criteria:**
-- [ ] README is complete: problem statement, data source, how to run, key findings
-- [ ] Folder structure matches the template (`data/`, `scripts/`, `notebooks/`, `dashboard/`)
-- [ ] No unnecessary files committed
-- [ ] Commit history is clean and readable
-- [ ] `requirements.txt` is present and up to date
+## Path B — Non-Predictive Alt Track
+
+| Week | Focus | Deliverable |
+|------|-------|-------------|
+| [Week 17](week-17/) | Advanced segmentation & cohort analysis | Segmentation analysis notebook section |
+| [Week 18](week-18/) | KPI development & metric framework | KPI notebook section + metric definitions |
+| [Week 19](week-19/) | Stakeholder narrative & policy brief | 1-page plain-language brief (PDF or notebook section) |
+| [Week 20](week-20/) | Repo polish & pipeline integration | Connected analysis pipeline with reusable outputs |
+
+---
+
+## Milestone 5 — Public Repository / Predictive Component
+
+**Due:** By Week 20–23
+
+**Pass criteria (both paths):**
+
+- [ ] All outputs integrated into a clean, runnable pipeline flow
+- [ ] Repo is professional and a stranger can understand it
+- [ ] Path A: Regression/classification baseline + improved model documented
+- [ ] Path B: Segmentation notebook + KPI definitions + 1-page stakeholder brief
+- [ ] `requirements.txt` present and up to date
 
 **Submission:** [Insert form link here]
-
----
-
-## Resources
-
-> Curriculum leads: add your curated links below per week.
-
-- Week 17: [Add resources here]
-- Week 18: [Add resources here]
-- Week 19: [Add resources here]
-- Week 20: [Add resources here]

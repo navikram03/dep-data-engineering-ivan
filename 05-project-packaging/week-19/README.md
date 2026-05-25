@@ -1,19 +1,63 @@
-# Week 19
+# Week 19 — Feature Engineering (Path A) / Stakeholder Narrative (Path B)
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 5 — Predictive / Alt Track &nbsp;|&nbsp; Milestone 5**
 
-## This Week's Focus
+> ⚡ Follow the section for your chosen path.
 
-[Add focus here]
+---
 
-## Resources
+## Path A — Feature Engineering & Model Improvement
 
-- [Add video / article / doc link here]
+### This Week's Focus
 
-## Task
+Improve on your baseline by creating better features and comparing results.
 
-[Add hands-on task here]
+**Topics:**
 
-## Notes
+- Encoding categories
+- Date-derived features
+- Scaling/normalization concept
+- Handle missing values before modeling
+- Prevent leakage in simple terms
+- Compare baseline vs improved version
+- Keep the model explainable and tied to the project goal
 
-[Add any setup instructions or tips here]
+**Resources:**
+
+**Primary:** [Data Science Fundamentals — IBM](https://cognitiveclass.ai/courses/data-science-fundamentals)
+
+**Optional:** [Learning from Data](https://work.caltech.edu/telecourse) — feature sections
+
+**Task:** Create one improved feature set or preprocessing step and compare results against the baseline model.
+
+**Deliverable:** Improved model section with what changed and why.
+
+---
+
+## Path B — Stakeholder Narrative & Policy Brief
+
+### Focus
+
+Write a 1-page plain-language summary of your findings for a non-technical audience.
+
+**Topics:**
+
+- Write for a non-technical audience
+- Structure: context, finding, implication, recommendation
+- Avoiding jargon and overclaiming
+- Connecting data outputs to real decisions
+- One-page brief format
+
+**Resources:**
+
+**Primary:** [Presentation and Storytelling](https://youtube.com) — search "presentation and storytelling data"
+
+**Optional:** [Real World Data Science Use Cases](https://realworlddatascience.net)
+
+**Task:** Write a 1-page plain-language brief summarizing findings and 2–3 recommended actions for the intended audience.
+
+**Deliverable:** Policy brief or stakeholder summary (PDF or notebook section).
+
+---
+
+**Estimated time:** 4–5 hours

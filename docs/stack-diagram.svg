@@ -44,7 +44,7 @@
   ──────────────────────────────────────────────── -->
   <rect x="275" y="50" width="215" height="152" rx="10" fill="white" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="6,3"/>
   <rect x="285" y="61" width="195" height="22" rx="11" fill="#1a3a6b"/>
-  <text x="382" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 2 · Data Collection (Wks 5–8)</text>
+  <text x="382" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 2 · Data Collection (Wks 5–6)</text>
   <!-- requests -->
   <rect x="287" y="95" width="28" height="28" rx="6" fill="#e0f7f4"/>
   <text x="301" y="114" text-anchor="middle" font-size="8.5" font-weight="700" fill="#00695c">req</text>
@@ -65,17 +65,17 @@
   ──────────────────────────────────────────────── -->
   <rect x="275" y="215" width="215" height="152" rx="10" fill="white" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="6,3"/>
   <rect x="285" y="226" width="195" height="22" rx="11" fill="#1a3a6b"/>
-  <text x="382" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 3 · Data Processing (Wks 9–12)</text>
-  <!-- pandas -->
-  <rect x="287" y="260" width="28" height="28" rx="6" fill="#f3e8ff"/>
-  <text x="301" y="279" text-anchor="middle" font-size="10" font-weight="700" fill="#6a1b9a">pd</text>
-  <text x="321" y="272" font-size="11" font-weight="600" fill="#1a1a2e">pandas</text>
-  <text x="321" y="284" font-size="9" fill="#607d8b">Cleaning, schema, null handling</text>
-  <!-- Jupyter -->
-  <rect x="287" y="298" width="28" height="28" rx="6" fill="#fff8e1"/>
-  <text x="301" y="317" text-anchor="middle" font-size="8.5" font-weight="700" fill="#f57f17">Jup</text>
-  <text x="321" y="310" font-size="11" font-weight="600" fill="#1a1a2e">Jupyter</text>
-  <text x="321" y="322" font-size="9" fill="#607d8b">Exploratory profiling</text>
+  <text x="382" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 3 · Data Processing (Wks 7–12)</text>
+  <!-- SQL -->
+  <rect x="287" y="260" width="28" height="28" rx="6" fill="#e0f7f4"/>
+  <text x="301" y="279" text-anchor="middle" font-size="9" font-weight="700" fill="#00695c">SQL</text>
+  <text x="321" y="272" font-size="11" font-weight="600" fill="#1a1a2e">SQL (SQLite)</text>
+  <text x="321" y="284" font-size="9" fill="#607d8b">Schema design, business queries</text>
+  <!-- pandas + Jupyter -->
+  <rect x="287" y="298" width="28" height="28" rx="6" fill="#f3e8ff"/>
+  <text x="301" y="317" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6a1b9a">pd</text>
+  <text x="321" y="310" font-size="11" font-weight="600" fill="#1a1a2e">pandas + Jupyter</text>
+  <text x="321" y="322" font-size="9" fill="#607d8b">Cleaning, transforms, profiling</text>
   <!-- Output -->
   <rect x="283" y="335" width="197" height="24" rx="4" fill="#e8efff"/>
   <rect x="283" y="335" width="3" height="24" rx="2" fill="#1a3a6b"/>
@@ -113,16 +113,16 @@
   ──────────────────────────────────────────────── -->
   <rect x="530" y="215" width="320" height="120" rx="10" fill="white" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="6,3"/>
   <rect x="540" y="226" width="300" height="22" rx="11" fill="#1a3a6b"/>
-  <text x="690" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 5 · Project Packaging (Wks 17–20)</text>
-  <!-- GitHub -->
-  <rect x="542" y="260" width="28" height="28" rx="6" fill="#eceff1"/>
-  <text x="556" y="279" text-anchor="middle" font-size="9" font-weight="700" fill="#263238">GH</text>
-  <text x="576" y="272" font-size="11" font-weight="600" fill="#1a1a2e">GitHub</text>
-  <text x="576" y="284" font-size="9" fill="#607d8b">Clean repo, docs, requirements.txt</text>
+  <text x="690" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="white">Phase 5 · Predictive / Alt Track (Wks 17–20)</text>
+  <!-- scikit-learn Path A -->
+  <rect x="542" y="260" width="28" height="28" rx="6" fill="#e8f5e9"/>
+  <text x="556" y="279" text-anchor="middle" font-size="8" font-weight="700" fill="#1b5e20">skl</text>
+  <text x="576" y="272" font-size="11" font-weight="600" fill="#1a1a2e">scikit-learn (Path A)</text>
+  <text x="576" y="284" font-size="9" fill="#607d8b">Regression, classification (optional)</text>
   <!-- Output -->
   <rect x="538" y="303" width="302" height="24" rx="4" fill="#e8efff"/>
   <rect x="538" y="303" width="3" height="24" rx="2" fill="#1a3a6b"/>
-  <text x="547" y="319" font-size="9" font-weight="600" fill="#1a3a6b">Output: Portfolio-ready public repo</text>
+  <text x="547" y="319" font-size="9" font-weight="600" fill="#1a3a6b">Output: Predictive model OR advanced analysis</text>
 
   <!-- ─────────────────────────────────────────────
        PHASE 6  x=530  y=348  w=320  h=148

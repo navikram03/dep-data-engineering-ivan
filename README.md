@@ -26,16 +26,29 @@ This is the **program hub** — it contains the curriculum, weekly resources, an
 
 ---
 
+## Stuck Protocol
+
+> If you have spent more than **2 hours** on one problem without progress:
+>
+> 1. Write down exactly what you tried
+> 2. Post in the DEP community channel with your error message and code snippet
+> 3. Tag your moderator
+>
+> **Do NOT skip ahead.** Moderators flag stuck participants for Ops Lead review within 48 hours.
+> You may not advance to the next milestone while a blocker is unresolved.
+
+---
+
 ## Curriculum
 
 | Phase | Weeks | Focus | Output |
 |-------|-------|-------|--------|
-| [01 — Foundations](01-foundations/) | 1–4 | Problem framing, Git, Python basics, APIs | Defined problem statement + first data pull |
-| [02 — Data Collection](02-data-collection/) | 5–8 | APIs, web scraping, ingestion | Raw dataset saved locally |
-| [03 — Data Processing](03-data-processing/) | 9–12 | Cleaning, structuring with pandas | Clean, schema-defined dataset |
-| [04 — Analysis & Insights](04-analysis-and-insights/) | 13–16 | EDA, visualization | Insights notebook with 3–5 charts |
-| [05 — Project Packaging](05-project-packaging/) | 17–20 | Repo cleanup, documentation | Professional, shareable repo |
-| [06 — Deployment](06-deployment/) | 21–24 | Static dashboard, GitHub Pages | Live, publicly accessible project |
+| [01 — Foundations](01-foundations/) | 1–4 | Problem framing, data source discovery, GitHub + Python basics | Problem statement + first raw data pull |
+| [02 — Data Collection](02-data-collection/) | 5–6 | API fundamentals, alternate ingestion paths (scraping / manual) | Ingestion script + raw data in `/data/raw` |
+| [03 — Data Processing](03-data-processing/) | 7–12 | Storage/data modeling, SQL, Pandas cleaning, data quality, pipeline structuring | Clean, schema-defined dataset + reproducible pipeline |
+| [04 — Analysis & Insights](04-analysis-and-insights/) | 13–16 | Descriptive stats, EDA, visualization, insight writing | Insights notebook with 3–5 charts |
+| [05 — Predictive / Alt Track](05-project-packaging/) | 17–20 | **Path A:** Regression, classification, ML pipeline &nbsp;/&nbsp; **Path B:** Advanced EDA, KPI framework, stakeholder narrative | Predictive layer (A) or advanced analysis + brief (B) |
+| [06 — Deployment](06-deployment/) | 21–24 | Dashboard design + build, GitHub Pages deploy, documentation polish, presentation | Live project URL + portfolio-ready repo |
 
 ---
 
@@ -45,13 +58,15 @@ Progress is tracked through 7 milestones (M0–M6). Each one has a clear output 
 
 | Milestone | When | Output |
 |-----------|------|--------|
-| M0 — Problem Statement | End of Week 1 | Defined question + public repo |
-| M1 — Data Source Identified | End of Week 5 | Dataset chosen and documented |
-| M2 — Data Ingestion Script | End of Week 8 | Working `01_ingest.py` |
-| M3 — Clean Dataset | End of Week 12 | Working `02_clean.py` + clean data |
-| M4 — Initial Insights | End of Week 16 | Notebook with 3–5 charts |
-| M5 — Public Repo | End of Week 20 | Clean, presentable GitHub repo |
-| M6 — Live Deployment | End of Week 24 | Live dashboard on GitHub Pages |
+| M0 — Problem Statement | End of Week 1 | Specific question + audience + possible data source + README in learner's own words |
+| M1 — Data Source Identified / Repo Initialized | By Week 3–4 | Working repo + chosen source + README data section complete |
+| M2 — Data Ingestion Script | By Week 6 | Raw data in `/data/raw` via API, scraping, or manual timestamped save |
+| M3 — Clean Dataset | By Week 12 | Processed dataset + schema plan + cleaning notes + validation checks |
+| M4 — Initial Insights | By Week 16 | 3–5 charts + written interpretations + one cautious inference section |
+| M5 — Public Repo / Predictive Component | By Week 20–23 | Professional repo + predictive layer (Path A) OR advanced EDA + stakeholder brief (Path B) |
+| M6 — Live Deployment | By Week 24 | Live GitHub Pages URL + presentable final project |
+
+> **Gates:** M0 and M1 are hard gates. Learners must not proceed to the next phase without moderator review and approval.
 
 Full checklist: [docs/MILESTONE_CHECKLIST.md](docs/MILESTONE_CHECKLIST.md)
 

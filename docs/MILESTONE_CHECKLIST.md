@@ -6,83 +6,112 @@ Use this to track your progress. Milestone reviewers also use this when evaluati
 
 ## M0 — Problem Statement *(End of Week 1)*
 
-> The most important milestone. Everything else builds on it.
+> ⚡ **Hard gate.** If you cannot pass M0, you must not proceed. Moderator review required.
 
 - [ ] Problem is framed as a **specific, answerable question** (not just a topic)
 - [ ] Intended audience is clearly identified
 - [ ] At least one potential data source has been found and linked
-- [ ] README has an initial project description in your own words
+- [ ] README started in your own words
 - [ ] GitHub repo is public with at least one commit
 
 **Submission:** [Insert form link]
 
 ---
 
-## M1 — Data Source Identified *(End of Week 5)*
+## M1 — Data Source Identified / Repo Initialized *(By Week 3–4)*
 
-- [ ] Dataset is chosen and accessible (downloaded or API confirmed working)
-- [ ] Data source documented in README (name, URL, format)
-- [ ] You have explored at least the first few rows and understand the structure
-- [ ] `data/raw/` folder exists in the repo
+> ⚡ **Gate.** Week 2 deliverable (data source) must be reviewed and marked complete before Week 3 repo setup begins. Vague sources do not pass. Moderator must confirm the source is specific and usable.
 
-**Submission:** [Insert form link]
-
----
-
-## M2 — Data Ingestion Script *(End of Week 8)*
-
-- [ ] `scripts/01_ingest.py` runs without errors
-- [ ] Script fetches or loads data from the actual source
-- [ ] Raw output is saved to `data/raw/`
+- [ ] Working public repo with starter folder structure + first commit
+- [ ] Chosen data source is specific and usable — not vague
+- [ ] Data source documented in README (name, URL, format, coverage)
+- [ ] First pull path confirmed and documented
+- [ ] README data section complete
 
 **Submission:** [Insert form link]
 
 ---
 
-## M3 — Clean Dataset *(End of Week 12)*
+## M2 — Data Ingestion Script *(By Week 6)*
 
-- [ ] `scripts/02_clean.py` runs without errors
-- [ ] Missing values are handled (dropped, filled, or documented)
+> All 3 ingestion paths are valid: API / web scraping / manual download. The deliverable format is the same regardless of path.
+
+- [ ] Raw data landed successfully in `/data/raw/`
+- [ ] Ingestion method documented (API, scraping, or manual timestamped save)
+- [ ] Source URL and date recorded alongside the raw file
+- [ ] Script (or documented manual process) is repeatable
+
+**Submission:** [Insert form link]
+
+---
+
+## M3 — Clean Dataset *(By Week 12)*
+
+- [ ] Schema plan documented (key tables/files, grain, identifiers, expected columns) — Week 7
+- [ ] At least 3 SQL queries answering business questions from the data — Week 8
+- [ ] Processed dataset saved in `/data/processed/`
+- [ ] Missing values handled — dropped, filled, or flagged with a reason
 - [ ] Column data types are correct (dates as dates, numbers as numbers)
-- [ ] Clean data saved to `data/processed/`
-- [ ] Brief notes in README or notebook on cleaning decisions
+- [ ] Cleaning decisions logged in README or notebook markdown
+- [ ] Validation checks added to the transform flow
+- [ ] Transform script produces the same output on every run
 
 **Submission:** [Insert form link]
 
 ---
 
-## M4 — Initial Insights *(End of Week 16)*
+## M4 — Initial Insights *(By Week 16)*
 
-- [ ] At least 3 charts exist in `notebooks/01_exploration.ipynb`
-- [ ] Each chart has a title that explains what it shows
+- [ ] At least 3 charts with clear titles and labels (saved in notebook or `/output/figures/`)
 - [ ] Charts directly relate back to the problem statement
-- [ ] Brief written interpretation under each chart
+- [ ] Written interpretation under each chart (2–3 sentences minimum)
+- [ ] One inference section that avoids overclaiming causality
+- [ ] Notebook is organized and annotated with markdown
 
 **Submission:** [Insert form link]
 
 ---
 
-## M5 — Public Repo *(End of Week 20)*
+## M5 — Public Repository / Predictive Component *(By Week 20–23)*
 
-- [ ] README is complete: problem statement, data source, how to run, key findings
-- [ ] Folder structure matches the template (`data/`, `scripts/`, `notebooks/`, `dashboard/`)
-- [ ] No unnecessary files committed (check `.gitignore`)
-- [ ] Commit history is clean and readable
-- [ ] `requirements.txt` is present and up to date
+> ⚡ Both paths (A and B) converge here. Choose the checklist for your path.
+
+### Path A — Predictive Track
+
+- [ ] Baseline regression or classification model built and evaluated
+- [ ] Evaluation metrics documented (RMSE/R² for regression; accuracy/precision/recall for classification)
+- [ ] Improved model version with documented changes
+- [ ] Predictive outputs integrated into the project pipeline
+- [ ] Model assumptions and limitations documented
+
+### Path B — Non-Predictive Alt Track
+
+- [ ] Segmentation analysis across 2–3 dimensions with comparison views
+- [ ] 3–5 KPIs defined with calculation logic and trend over time
+- [ ] 1-page plain-language stakeholder brief (PDF or notebook section)
+- [ ] All outputs integrated into clean, runnable pipeline
+
+### Both Paths
+
+- [ ] Repo is professional — a stranger can understand and run it
+- [ ] `requirements.txt` present and up to date
+- [ ] No unnecessary files committed
 
 **Submission:** [Insert form link]
 
 ---
 
-## M6 — Live Deployment *(End of Week 24)*
+## M6 — Live Deployment *(By Week 24)*
 
-- [ ] `scripts/03_analyze.py` generates `dashboard/index.html`
-- [ ] Dashboard is deployed to GitHub Pages and accessible via a public URL
-- [ ] Dashboard URL is added to the README
-- [ ] GitHub Actions workflow runs successfully (green checkmark)
+- [ ] Dashboard or report artifact built and committed
+- [ ] Project deployed to GitHub Pages (primary: [pages.github.com](https://pages.github.com)) and accessible via a public URL
+- [ ] Dashboard/live URL added to the README
+- [ ] All links working, no missing files, no broken outputs
+- [ ] Final README covers: problem, data, pipeline, analysis, dashboard, how to run
+- [ ] Short presentation or demo script prepared (5–10 minutes)
 
 **Submission:** [Insert form link]
 
 ---
 
-*Questions? Ask in the community Discord or reach out to your Squad Guide.*
+*Questions? Ask in the community Discord or reach out to your moderator.*

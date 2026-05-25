@@ -1,19 +1,40 @@
-# Week 13
+# Week 13 — Descriptive Statistics for Project Understanding
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 4 — Analysis & Insights &nbsp;|&nbsp; Milestone 4**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Use statistics to understand the shape and character of your data before visualizing it.
+
+**Topics:**
+
+- Mean, median, mode
+- Min, max, percentiles
+- Variance and standard deviation
+- Distribution shape and skew
+- Outlier identification basics
+- Which statistic fits which data type
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [StatQuest — Statistics Fundamentals](https://youtube.com/@statquest)
+
+**Optional:** [OpenIntro Statistics](https://openintro.org/book/os) — selected sections
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Generate descriptive statistics for the key measures in your project and explain in plain language what they say about the data.
 
-## Notes
+---
 
-[Add any setup instructions or tips here]
+## Deliverable
+
+Summary-statistics section in notebook with markdown interpretation.
+
+**Estimated time:** 4–5 hours

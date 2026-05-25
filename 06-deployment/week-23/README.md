@@ -1,19 +1,45 @@
-# Week 23
+# Week 23 — Documentation, Repo Polish & Reproducibility
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 6 — Packaging & Deployment &nbsp;|&nbsp; Milestone 5 / 6**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Perform a documentation pass so another person can clone the repo, run the steps, and understand the outputs.
+
+**Topics:**
+
+- Final README structure: problem, data, pipeline, analysis, dashboard, how to run
+- Meaningful code comments
+- Notebook markdown narration
+- List assumptions, limitations, and next steps
+- Ensure folder structure is clean
+- Make the project understandable to a stranger
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [Learn Git Branching](https://learngitbranching.js.org) — workflow review if needed
+
+**Optional:** [GitHub](https://github.com) — browse well-documented repos for reference
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Do a complete documentation pass:
 
-## Notes
+1. Rewrite the README top to bottom (problem → data → pipeline → analysis → dashboard → how to run)
+2. Add markdown narration to all notebooks
+3. Add brief comments to scripts where the logic isn't obvious
+4. List assumptions, limitations, and ideas for next steps
 
-[Add any setup instructions or tips here]
+---
+
+## Deliverable
+
+Professional public repo with polished README and organized folders.
+
+**Estimated time:** 4–5 hours

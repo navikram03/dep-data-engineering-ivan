@@ -1,6 +1,6 @@
 # Phase 1 — Foundations
 
-**Weeks 1–4 &nbsp;|&nbsp; Milestone: M0**
+**Weeks 1–4 &nbsp;|&nbsp; Milestones: M0, M1, M2 (first pull)**
 
 > Before writing a single line of Python, you must answer one question: *what am I trying to understand?* Phase 1 starts with the problem, not the tools.
 
@@ -12,42 +12,46 @@ By the end of Week 4, you will have:
 
 - A clearly defined, specific, answerable research question
 - A public GitHub repo using the [DEP Starter Kit](https://github.com/dai-dep/dep-starter-kit)
-- Your first data pull from a real source (API or file)
-- A completed Milestone 0 submission
+- Your first raw data pull from a real source
+- Completed Milestone 0 and started Milestone 1
 
 ---
 
 ## Weekly Breakdown
 
-| Week | Focus | Task |
-|------|-------|------|
-| [Week 1](week-01/) | Problem Framing | Define your question. Set up your repo. Submit M0. |
-| [Week 2](week-02/) | Git & GitHub | Learn commits, branches, and public repos. |
-| [Week 3](week-03/) | Python Basics | Variables, functions, loops, and reading data files. |
-| [Week 4](week-04/) | APIs & First Data Pull | Use `requests` to pull JSON from a real API. |
+| Week | Focus | Deliverable |
+|------|-------|-------------|
+| [Week 1](week-01/) | Problem framing & project selection | README with problem statement (Milestone 0) |
+| [Week 2](week-02/) | Data source discovery & feasibility check | README data section + source notes ⚡ Gate before Week 3 |
+| [Week 3](week-03/) | GitHub setup, repo hygiene, dev environment | Working public repo with starter folder structure |
+| [Week 4](week-04/) | Python foundations + first data pull | `scripts/ingest.py` + first raw data file committed |
 
 ---
 
 ## Milestone 0 — Problem Statement
 
-**Due:** End of Week 1
+**Due:** End of Week 1 &nbsp;|&nbsp; ⚡ **Gate enforced — moderator review required before proceeding**
 
 **Pass criteria:**
+
 - [ ] Problem is framed as a specific, answerable question
 - [ ] Intended audience is identified
 - [ ] At least one potential data source is linked
-- [ ] GitHub repo is public with at least one commit
-- [ ] README has an initial project description
+- [ ] README started in learner's own words
 
 **Submission:** [Insert form link here]
 
 ---
 
-## Resources
+## Milestone 1 — Data Source Identified / Repo Initialized
 
-> Curriculum leads: add your curated links below per week.
+**Due:** By Week 3–4 &nbsp;|&nbsp; ⚡ **Gate: Week 2 deliverable reviewed before Week 3 begins. Vague sources fail.**
 
-- Week 1: [Add resources here]
-- Week 2: [Add resources here]
-- Week 3: [Add resources here]
-- Week 4: [Add resources here]
+**Pass criteria:**
+
+- [ ] Working public repo with starter folder structure + first commit
+- [ ] Chosen data source is specific and usable (not vague)
+- [ ] README data section complete with source URL, format, and coverage
+- [ ] First pull path documented
+
+**Submission:** [Insert form link here]

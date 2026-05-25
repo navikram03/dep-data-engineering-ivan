@@ -1,19 +1,40 @@
-# Week 14
+# Week 14 — EDA & Visualization
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 4 — Analysis & Insights &nbsp;|&nbsp; Milestone 4**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Build charts that answer your project question — clear, labeled, and purposeful.
+
+**Topics:**
+
+- Choosing chart types: line, bar, scatter, histogram
+- Matplotlib/Plotly basics
+- Labeling titles, axes, and legends
+- Comparing categories and trends over time
+- Detecting anomalies and seasonality visually
+- Build charts that answer the project question
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [Data Visualization & Business Intelligence playlist](https://youtube.com) — search "data visualization business intelligence playlist"
+
+**Optional:** [TechTFQ](https://youtube.com/@TechTFQ) — targeted plotting tutorials
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Create at least 3 clear charts tied to the project question and save them into `/output/figures/` or as notebook outputs.
 
-## Notes
+---
 
-[Add any setup instructions or tips here]
+## Deliverable
+
+Three or more charts with readable titles and labels.
+
+**Estimated time:** 5 hours

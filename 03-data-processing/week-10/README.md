@@ -1,19 +1,41 @@
-# Week 10
+# Week 10 — Advanced Transformation & Joins
 
-> Curriculum leads: add the week title, resources, and tasks here.
+**Phase 3 — Data Processing &nbsp;|&nbsp; Milestone 3**
+
+---
 
 ## This Week's Focus
 
-[Add focus here]
+Combine, reshape, and enrich your data into one coherent analysis-ready table.
+
+**Topics:**
+
+- Handling missing values: fill, drop, flag
+- Removing duplicates
+- Type conversion: numeric, date, categorical
+- `merge()`, `concat()`, `groupby()`, `agg()`
+- Derived columns and feature engineering basics
+- Time-based grouping (month, quarter, year)
+- Produce one analysis-ready table
+
+---
 
 ## Resources
 
-- [Add video / article / doc link here]
+**Primary:** [Data Engineering Zoomcamp](https://dezoomcamp.streamlit.app) — ETL/transformation sections
+
+**Optional:** [Data Engineering Cookbook](https://github.com/andkret/Cookbook) — examples only
+
+---
 
 ## Task
 
-[Add hands-on task here]
+Transform multiple raw sources into one coherent processed dataset with a documented cleaning flow.
 
-## Notes
+---
 
-[Add any setup instructions or tips here]
+## Deliverable
+
+Processed dataset + transformation logic documented.
+
+**Estimated time:** 5 hours

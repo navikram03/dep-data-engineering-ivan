@@ -1,6 +1,6 @@
 # Phase 4 — Analysis & Insights
 
-**Weeks 13–16 &nbsp;|&nbsp; Milestone: M4**
+**Weeks 13–16 &nbsp;|&nbsp; Milestone: M4 — Initial Insights**
 
 > You have clean data. Now answer your question. Phase 4 is where the analysis happens — charts, patterns, and the "so what?"
 
@@ -11,7 +11,8 @@
 By the end of Week 16, you will have:
 
 - A Jupyter notebook with 3–5 charts that directly address your problem statement
-- Written interpretation under each chart ("what does this tell us?")
+- Written interpretation under each chart
+- One cautious inference section (no overclaiming causality)
 - A clear narrative connecting your data to your original question
 - Completed Milestone 4 submission
 
@@ -19,34 +20,25 @@ By the end of Week 16, you will have:
 
 ## Weekly Breakdown
 
-| Week | Focus | Task |
-|------|-------|------|
-| [Week 13](week-13/) | Exploratory Data Analysis | Distributions, correlations, outliers. What does your data look like? |
-| [Week 14](week-14/) | Visualization Fundamentals | Bar, line, scatter, choropleth — when to use which. |
-| [Week 15](week-15/) | Telling the Story | Link charts back to your problem statement. Write interpretations. |
-| [Week 16](week-16/) | Insights Notebook | Polish `notebooks/01_exploration.ipynb`. Submit M4. |
+| Week | Focus | Deliverable |
+|------|-------|-------------|
+| [Week 13](week-13/) | Descriptive statistics for project understanding | Summary-statistics section in notebook with markdown interpretation |
+| [Week 14](week-14/) | EDA & visualization | Three or more charts with readable titles and labels |
+| [Week 15](week-15/) | Inferential thinking & analytical caution | One inference-oriented analysis section with cautious interpretation |
+| [Week 16](week-16/) | Insight writing & decision-oriented storytelling | Insights notebook with 3–5 charts and written interpretations |
 
 ---
 
 ## Milestone 4 — Initial Insights
 
-**Due:** End of Week 16
+**Due:** By Week 16
 
 **Pass criteria:**
-- [ ] At least 3 charts exist in `notebooks/01_exploration.ipynb`
-- [ ] Each chart has a title that explains what it shows
+
+- [ ] At least 3 charts with clear titles and labels saved in notebook or `/output/figures/`
 - [ ] Charts directly relate back to the problem statement
-- [ ] Brief written interpretation under each chart
+- [ ] Written interpretation under each chart (2–3 sentences minimum)
+- [ ] One inference section that avoids overclaiming causality
+- [ ] Notebook is organized and annotated
 
 **Submission:** [Insert form link here]
-
----
-
-## Resources
-
-> Curriculum leads: add your curated links below per week.
-
-- Week 13: [Add resources here]
-- Week 14: [Add resources here]
-- Week 15: [Add resources here]
-- Week 16: [Add resources here]
