@@ -258,7 +258,7 @@
   <h1>DEP — Submission Tracker</h1>
   <div style="display:flex;align-items:center;gap:1rem;">
     <div class="toggle-wrap">
-      <button class="toggle-btn active" id="btn-enrolled" onclick="setView('enrolled')">Enrolled Only</button>
+      <button class="toggle-btn active" id="btn-enrolled" onclick="setView('enrolled')">Cohort</button>
       <button class="toggle-btn"        id="btn-all"      onclick="setView('all')">All Submissions</button>
     </div>
     <span id="last-updated"></span>
@@ -495,6 +495,8 @@ async function fetchEnrolled() {
   try {
     const res  = await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/.github/enrolled-participants.json`);
     const data = await res.json();
+    const cohort = data.cohort || 'Cohort';
+    document.getElementById('btn-enrolled').textContent = `Cohort: ${cohort}`;
     return new Set((data.participants || []).map(u => u.toLowerCase()));
   } catch (_) {
     return null;
