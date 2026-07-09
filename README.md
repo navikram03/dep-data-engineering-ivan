@@ -8,20 +8,21 @@ This project is intended for daily commuters in Cavite who want to better unders
 
 ## KPI or Key Metric
 The primary KPI for this project is fuel price volatility, measured using:
-    - Average week-to-week price change (PHP per liter)
-    - Average week-to-week percentage change (%)
-    - Frequency of significant weekly price increases (price spikes)
+- Average week-to-week price change (PHP per liter)
+- Average week-to-week percentage change (%)
+- Frequency of significant weekly price increases (price spikes)
 
 ## Likely Data Source
 I will use the Department of Energy (DOE) Philippines (https://www.doe.gov.ph/), specifically the PRICE MONITORING OF LIQUID FUELS – Region IV-A (CALABARZON) weekly reports. These official PDF reports provide weekly gasoline and diesel prices from different fuel stations across Cavite. 
 
 ## Possible Final Dashboard
 The dashboard should help the audience quickly see:
-    - Weekly gasoline and diesel price trends in Cavite
-    - Week-to-week fuel price changes
-    - Fuel price volatility throughout 2026
-    - Weeks with significant price spikes
-    - Comparison of gasoline and diesel price movements
-    - Summary statistics describing fuel price behavior over time
+- Weekly gasoline and diesel price trends in Cavite
+- Week-to-week fuel price changes
+- Fuel price volatility throughout 2026
+- Weeks with significant price spikes
+- Comparison of gasoline and diesel price movements
+- Summary statistics describing fuel price behavior over time
+
 
 
