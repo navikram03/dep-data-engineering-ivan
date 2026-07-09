@@ -22,7 +22,10 @@ The dashboard should help the audience quickly see fuel price trends, volatility
 - Name: PRICE MONITORING OF LIQUID FUELS - REGION IV-A
 - URL: https://doe.gov.ph/articles/group/liquid-fuels
 - Format: PDF
-- Coverage: Weekly fuel price monitoring reports for Region IV-A (CALABARZON), including Cavite municipalities and cities. The reports contain gasoline RON 100, RON 97, RON 95, RON 91, diesel, diesel plus, and kerosene prices from multiple fuel companies such as Petron, Shell, Caltex, Phoenix, Unioil, Flying V, PTT, Independent stations. Each report also provides an Overall Range from lowest to highest observed price and Common Price for each fuel type.
+- Coverage: 
+    - Weekly fuel price monitoring reports for Region IV-A (CALABARZON), including Cavite municipalities and cities. 
+    - The reports contain gasoline, RON 100, RON 97, RON 95, RON 91, diesel, diesel plus, and kerosene prices from multiple fuel companies such as Petron, Shell, Caltex, Phoenix, Unioil, Flying V, PTT, Independent stations. 
+    - Each report also provides an Overall Range from lowest to highest observed price and Common Price for each fuel type.
 - Why it fits the problem: The reports are published by the Department of Energy (DOE) and provide official weekly fuel prices for Cavite, allowing week-to-week analysis of fuel price volatility and identification of significant price increases.
 - Known limitations: 
     - Data is provided in PDF format and requires extraction before analysis.
